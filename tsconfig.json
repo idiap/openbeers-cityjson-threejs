@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "downlevelIteration": true,
+    "module": "es2022",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "strict": false,
+    "outDir": "dist",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noEmit": false,
+    "noEmitOnError": false,
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

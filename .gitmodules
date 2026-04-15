@@ -1,0 +1,4 @@
+[submodule "openbeers-js"]
+	path = openbeers
+	url = git@github.com:idiap/openbeers-js.git
+	update = merge

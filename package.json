@@ -1,0 +1,33 @@
+{
+  "name": "openbeers-cityjson-threejs",
+  "version": "1.0.0",
+  "description": "OpenBEERS CityJSON Three.js loader (based on cityjson-threejs-loader)",
+  "repository": "gitlab.idiap.ch:energy/openbeers/openbeers-cityjson-threejs.git",
+  "author": "David Geissbühler (original version by Stelios Vitalis)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "files": [
+    "src/*"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "earcut": "^2.2.2",
+    "openbeers": "file:./openbeers",
+    "regenerator-runtime": "^0.14.1",
+    "three": "^0.177.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@types/earcut": "^3.0.0",
+    "@types/three": "^0.177.0",
+    "@vue/tsconfig": "^0.7.0",
+    "concurrently": "^9.0.1",
+    "eslint": "^9.13.0",
+    "eslint-config-mdcs": "^5.0.0",
+    "eslint-plugin-jest": "^28.8.3",
+    "jest": "^29.7.0"
+  }
+}
