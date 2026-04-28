@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2022",
-    "downlevelIteration": true,
+    "ignoreDeprecations": "6.0",
     "module": "es2022",
     "moduleResolution": "node",
     "sourceMap": false,
